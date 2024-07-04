@@ -41,3 +41,5 @@ const paragraph4 = document.createElement("p");
 paragraph4.innerText = "Chess With Death";
 
 mainList.replaceChild(paragraph4, mainList.childNodes[2]);
+
+mainList.removeChild(mainList.lastElementChild);
