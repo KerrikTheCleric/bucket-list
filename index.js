@@ -20,3 +20,8 @@ console.log(mainList.innerHTML);
 mainList.insertAdjacentHTML("beforeend", divString);
 console.log(mainList.innerHTML);
 
+for (let i = 0; i < 3; i++) {
+    var newItem = document.createElement("p");
+    newItem.innerText = "For Loop Item " + (i+1);
+    mainList.insertAdjacentElement("beforeend", newItem);
+  }
