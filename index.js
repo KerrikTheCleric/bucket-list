@@ -31,3 +31,8 @@ for (let i = 0; i < 3; i++) {
 console.log(mainList.children.length);
 
 header2.innerText = "My";
+
+const paragraph3 = document.createElement("p");
+paragraph3.innerText = "Learn Unicycle";
+
+mainList.replaceChild(paragraph3, mainList.firstChild);
