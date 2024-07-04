@@ -1,4 +1,6 @@
 const mainList = document.querySelector(".list");
+const header2 = document.querySelector(".owner");
+
 
 const paragraph1 = document.createElement("p");
 paragraph1.innerText = "Eat Mountain Of Ice Cream";
@@ -25,3 +27,7 @@ for (let i = 0; i < 3; i++) {
     newItem.innerText = "For Loop Item " + (i+1);
     mainList.insertAdjacentElement("beforeend", newItem);
   }
+
+console.log(mainList.children.length);
+
+header2.innerText = "My";
